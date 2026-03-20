@@ -1,38 +1,108 @@
-<DOCTYPE html>
-<html  
-<head>   
-  <meta charset="UTF-8">
-  <meta name="description" content="BrainBox is an ultimate, safe learning destination where students of all ages can master their specific grade level through rewarding challenges that celebrate every correct answer, all while connecting with a vibrant global community of friends in a fun, social environment that turns every study session into an exciting shared adventure.">
-  <meta name="viewport" content="width=device-width", initial-scale=1.0">
-  
-  <title>BrainBox: Fun and Safe Learning App</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      font-family: Arial;
-      text-align: center;
-      background: #4facfe;
-      color: white;
-      padding: 50px;
-   }
-   button {
-     padding: 15px;
-     font-size: 18px;
-     border: none;
-     border-radius: 8px;
-     cursor: pointer;
-   }  
- </style>
+<title>BrainBox</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.highlight {
+  background: linear-gradient(to right, #4facfe, #a855f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #94a3b8;
+}
+
+.author {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.floating {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  font-size: 16px;
+  color: #94a3b8;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>🧠 BrainBox</h1>
-<p>Learn faster with fun and challenging questions!</p>
+<div class="container">
+  <div style="font-size:40px;">🧠 ⚡</div>
 
-<a> href="https://brain-charge-hub.lovable.app"
-   <button>Visit BrainBox</button>
-</a>
-  
+  <h1>
+    Welcome to <span class="highlight">BrainBox!</span>
+  </h1>
+
+  <div class="subtitle">
+    Charge Your Brain. Unlock Your Game.
+  </div>
+
+  <div class="author">
+    Published by Abhinav V.
+  </div>
+
+  <a href="https://brain-charge-hub.lovable.app">
+    <button>Let's Start 🚀</button>
+  </a>
+</div>
+
+<div class="floating">
+  Learn · Play · Grow
+</div>
+
 </body>
 </html>
+  
